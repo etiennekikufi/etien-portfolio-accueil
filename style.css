@@ -3,13 +3,13 @@
 /* ==================================== */
 :root {
     /* Couleurs */
-    --color-primary: #0077b6; /* Un bleu professionnel pour les boutons et accents */
-    --color-secondary: #00b4d8; /* Bleu clair pour les hover ou les sous-titres */
-    --color-background: #f8f9fa; /* Arrière-plan très clair */
-    --color-text: #343a40; /* Texte foncé, très lisible */
+    --color-primary: #0077b6; 
+    --color-secondary: #00b4d8; 
+    --color-background: #f8f9fa;
+    --color-text: #343a40; 
     --color-shadow: rgba(0, 0, 0, 0.1);
 
-    /* Police (Utilisation de la police système pour la rapidité) */
+    /* Police */
     --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -30,7 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh; /* S'assure que le pied de page reste en bas */
+    min-height: 100vh; 
 }
 
 /* ==================================== */
@@ -102,7 +102,7 @@ body {
 }
 
 footer {
-    margin-top: auto; /* Pousse le pied de page vers le bas */
+    margin-top: auto; 
     padding: 20px 0;
     font-size: 0.9rem;
     color: #6c757d;
